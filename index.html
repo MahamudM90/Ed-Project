@@ -15,11 +15,12 @@
     <header class="container ">
         <nav class="navbar navbar-expand-lg bg-light">
             <div class="container">
-              <a class="navbar-brand" href="#"> E-Learning </a>
+              <a class="navbar-brand fs-4 fw-bold" href="#"> E-Learning </a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>
               <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0 center">
                   <li class="nav-item">
                     <a class="nav-link active" aria-current="page" href="#">Home</a>
@@ -32,9 +33,6 @@
                   </li>
                   <li class="nav-item">
                     <a class="nav-link" href="#">Success</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">About</a>
                   </li>
                   <li class="nav-item">
                     <a class="nav-link" href="#">About</a>
@@ -96,7 +94,7 @@
     <main> 
 <!--Single Courses Start-->
 <main>
-  <section class="courses mt-5 container">
+  <section class="container my-5">
     <div class="popular-courses container-fluid my-5">
               <h1 class="fw-bold text-center fs-1 ">Discover Our Popular <br> <span>Courses</span>
               </h1>
@@ -158,7 +156,7 @@
                       </div>
                                                               
               </div>
-              <!-- 4 -->
+              <!--pera 4 -->
               <div class="col-lg-6 col-md-12 col-sm-12">
                         <div class="card mb-3 w-100">
                         <div class="row  flex-sm-column-reverse flex-lg-row flex-md-row">
@@ -176,7 +174,7 @@
                       </div>
                         
               </div>
-              <!-- 5 -->
+              <!--pera 5 -->
               <div class="col-lg-6 col-md-12 col-sm-12">
                         <div class="card mb-3 w-100">
                         <div class="row   flex-sm-column-reverse flex-lg-row flex-md-row">
@@ -194,7 +192,7 @@
                       </div>
                         
               </div>
-              <!-- 6 -->
+              <!--pera 6 -->
               <div class="col-lg-6 col-md-12 col-sm-12">
                         <div class="card mb-3 w-100">
                         <div class="row   flex-sm-column-reverse flex-lg-row flex-md-row">
@@ -213,7 +211,64 @@
                         
               </div>
               </div>
+              <div class=" mx-auto">
+                <button class="btn btn-primary rounded" type="button"> See More Courses </button>
+                
+              </div>
+              </section>
         <!--Single Course End-->
+
+        <!--Registration Section Start-->
+        <section class="container h-100 p-5 my-5">
+          <div class="row bg-primary rounded  align-items-center gx-5 p-5 flex-lg-row flex-md-column flex-sm-column text-lg-start text-center">
+                    <div class=" col-lg-8  col-sm-12 ">
+                              <h2 class="text-light">
+                                 Ready to join?
+                              </h2>
+                              <p class="text-light">
+                                  It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.      
+                              </p>
+                    </div>
+                    <!-- Modal Area -->
+                    <div class="col-lg-4  col-sm-12 text-lg-end">
+                              <button type="button" class="btn btn-light text-primary fw-semibold btn-lg" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@mdo">Register Now</button>
+
+                    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                      <div class="modal-dialog">
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">New message</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                          </div>
+                          <div class="modal-body">
+                            <form>
+                              <div class="mb-3">
+                                <label for="email" class="col-form-label">Email:</label>
+                                <input type="email" class="form-control" id="email">
+                              </div>
+                              <div class="mb-3">
+                                <label for="message-text" class="col-form-label">Message:</label>
+                                <textarea class="form-control" id="message-text"></textarea>
+                              </div>
+                            </form>
+                          </div>
+                          <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                            <button type="button" class="btn btn-primary">Send message</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    </div>
+          </div>
+</section>
+
+
+        <!--Registration Section End-->
+
+
+
   </main>
 
 
