@@ -1,0 +1,6 @@
+body{
+    @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Poppins:wght@500&display=swap');
+}
+.custom-height{
+    height: 0.6;
+}
